@@ -1,0 +1,47 @@
+{
+  "name": "openapp-cli",
+  "version": "1.0.0",
+  "description": "A secure CLI tool to quickly open websites in your browser from the terminal. Supports custom shortcuts, multiple browsers, and incognito mode.",
+  "keywords": [
+    "cli",
+    "browser",
+    "open",
+    "chrome",
+    "firefox",
+    "edge",
+    "safari",
+    "website",
+    "shortcut",
+    "productivity",
+    "terminal",
+    "youtube",
+    "gmail",
+    "linkedin",
+    "facebook"
+  ],
+  "homepage": "https://github.com/shubham-251100/openapp#readme",
+  "bugs": {
+    "url": "https://github.com/shubham-251100/openapp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham-251100/openapp.git"
+  },
+  "license": "MIT",
+  "author": "Shubham Rawat",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "openapp": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --help"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "open": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
