@@ -1,6 +1,6 @@
 {
   "name": "openapp-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A secure CLI tool to quickly open websites in your browser from the terminal. Supports custom shortcuts, multiple browsers, and incognito mode.",
   "keywords": [
     "cli",
